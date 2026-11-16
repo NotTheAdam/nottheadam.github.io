@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Илья, full-stack разработчик. Проекты в финтехе, инструменты разработки, приватная связь и AI-автоматизация.">
+  <meta name="theme-color" content="#121310">
+  <meta property="og:title" content="NotTheAdam — портфолио разработчика">
+  <meta property="og:description" content="Портфолио Ильи NotTheAdam. Финтех, инструменты разработки, приватная связь и AI-автоматизация.">
+  <title>NotTheAdam — портфолио разработчика</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">К содержимому</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="symbols" aria-hidden="true">
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M6 18 18 6M7 6h11v11"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4.5 4.5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="1"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 4l-4 16"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 15 11-11 5 5-11 11H4zm9-9 5 5"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4 1.5-4-2.5-5.5-3m11.5 6v-3.9c0-1 .1-1.5-.5-2.1 2.8-.3 5.7-1.3 5.7-6.2 0-1.3-.5-2.4-1.3-3.3.1-.3.6-1.6-.2-3.3 0 0-1.1-.4-3.5 1.3a12.4 12.4 0 0 0-6.4 0C6.4 2.8 5.3 3.2 5.3 3.2c-.8 1.7-.3 3-.2 3.3a4.7 4.7 0 0 0-1.3 3.3c0 4.9 2.9 5.9 5.7 6.2-.5.5-.7 1.1-.7 2V22"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="identity" href="#top"><span class="brand-mark" aria-hidden="true">N<span>.</span></span> <span>NotTheAdam<span class="identity-period">.</span></span></a>
+      <nav class="site-nav" aria-label="Навигация">
+        <a href="#work">Проекты</a><a href="#about">Обо мне</a><a href="#contact">Связь</a>
+      </nav>
+      <a class="header-github" data-github href="https://github.com/NotTheAdam" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon"><use href="#i-out"/></svg></a>
+    </div>
+  </header>
+  <aside id="preview-bar" class="preview-bar" hidden>
+    <div class="wrap"><span><span class="signal"></span> Предпросмотр черновика</span><button type="button" data-end-preview>Открыть опубликованную версию</button></div>
+  </aside>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-label"><span class="signal"></span><span id="profile-role">FULL-STACK РАЗРАБОТЧИК</span></p>
+        <h1 id="hero-title" aria-label="NotTheAdam"><span>NotThe</span><span>Adam<span class="accent">.</span></span></h1>
+        <p class="hero-intro" id="profile-intro">Я Илья. Пишу софт для задач, где ошибки дорого стоят: платежи, релизы и личная переписка.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Смотреть проекты <svg class="icon"><use href="#i-down"/></svg></a>
+          <a class="button outline" href="#contact">На связь <svg class="icon"><use href="#i-out"/></svg></a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <div class="poster">
+          <img src="./assets/after-hours.webp" alt="Двухцветная иллюстрация: силуэт человека в капюшоне за старым компьютером" width="960" height="1200" fetchpriority="high">
+          <span class="poster-corner top-left"></span><span class="poster-corner top-right"></span><span class="poster-corner bottom-left"></span><span class="poster-corner bottom-right"></span>
+          <span class="poster-label" aria-hidden="true">AFTER HOURS</span>
+          <span class="poster-register" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><circle cx="22" cy="22" r="12"/><path d="M22 2v40M2 22h40"/></svg></span>
+        </div>
+        <figcaption><span><b>FIG. 01</b> / НОЧНАЯ СМЕНА</span><span aria-hidden="true" class="barcode"></span></figcaption>
+      </figure>
+    </section>
+
+    <section class="work wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow section-index"><span>01</span> / ПОРТФОЛИО</p><h2 id="work-title">Проекты<span class="accent">.</span></h2></div>
+        <p class="work-count eyebrow" id="work-count" aria-live="polite"></p>
+      </div>
+      <div class="work-tools">
+        <div id="filters" class="filters" role="group" aria-label="Категории проектов"></div>
+        <label class="search-field">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input id="project-search" type="search" placeholder="Поиск по проектам" aria-label="Поиск по проектам" maxlength="100">
+          <kbd aria-hidden="true">/</kbd>
+        </label>
+      </div>
+      <div class="project-grid" id="projects"></div>
+      <div class="empty-state" id="work-empty" hidden><p id="empty-text"></p><button type="button" class="button outline" id="reset-filters">Сбросить фильтры</button></div>
+      <p class="load-error" id="load-error" hidden></p>
+      <noscript><p>Для каталога и редактора нужен JavaScript. Репозитории доступны <a href="https://github.com/NotTheAdam?tab=repositories">на GitHub</a>.</p></noscript>
+    </section>
+
+    <section class="about wrap" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <div><p class="eyebrow section-index"><span>02</span> / ПРОФИЛЬ</p><h2 id="about-title">Обо мне<span class="accent">.</span></h2></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text"><p id="profile-bio">Веду проект целиком: от первого экрана и модели данных до тестов и развёртывания. Веб-продукты строю на React, Next.js и TypeScript. Для Shroud собрал мобильный клиент на React Native, сервер с gRPC и криптографическое ядро на Rust.</p></div>
+        <div class="stack"><h3 class="eyebrow"><svg class="icon"><use href="#i-code"/></svg> СТЕК</h3><ul id="profile-stack"></ul></div>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div><p class="eyebrow section-index"><span>03</span> / КОНТАКТЫ</p><h2 id="contact-title">На связи<span>.</span></h2></div>
+        <div class="contact-links" id="contact-links">
+          <a class="button contact-primary" href="https://t.me/psych0path1x">Telegram <svg class="icon"><use href="#i-out"/></svg></a>
+          <a class="button contact-secondary" href="https://kwork.ru/user/nottheadams">Kwork <svg class="icon"><use href="#i-out"/></svg></a>
+          <a class="button contact-secondary" href="https://github.com/NotTheAdam"><svg class="icon"><use href="#i-github"/></svg> GitHub <svg class="icon"><use href="#i-out"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a href="#top" class="identity"><span class="brand-mark" aria-hidden="true">N<span>.</span></span><span>NotTheAdam<span class="identity-period">.</span></span></a>
+    <div class="footer-actions">
+      <button type="button" data-open-editor><svg class="icon"><use href="#i-edit"/></svg> Редактор</button>
+      <a href="#top">Наверх <svg class="icon"><use href="#i-up"/></svg></a>
+    </div>
+  </footer>
+
+  <dialog id="project-dialog" class="dialog project-dialog" aria-labelledby="detail-title">
+    <div class="dialog-toolbar"><span class="eyebrow"><span class="accent">/</span> ПРОЕКТ</span><button class="icon-button" type="button" data-close aria-label="Закрыть проект" autofocus><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <div id="project-detail"></div>
+  </dialog>
+
+  <dialog id="editor" class="dialog editor-dialog" aria-labelledby="editor-title">
+    <div class="dialog-toolbar"><span class="eyebrow"><span class="accent">N.</span> / РЕДАКТОР</span><button class="icon-button" type="button" data-close aria-label="Закрыть редактор" autofocus><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <div class="editor-body">
+      <h2 id="editor-title">Редактор</h2>
+      <nav class="editor-nav" aria-label="Разделы редактора">
+        <button type="button" data-editor-tab="projects" aria-pressed="true">Проекты</button>
+        <button type="button" data-editor-tab="profile" aria-pressed="false">Профиль</button>
+        <button type="button" data-editor-tab="publish" aria-pressed="false">Публикация</button>
+      </nav>
+      <section id="edit-projects" aria-label="Проекты">
+        <div id="manager">
+          <div class="editor-row"><p class="muted">Добавляй работы, меняй порядок и скрывай черновики.</p><button type="button" class="button primary" id="add-project"><svg class="icon"><use href="#i-plus"/></svg> Новый проект</button></div>
+          <div id="manager-list" class="manager-list"></div>
+        </div>
+        <form id="project-form" class="editor-form" hidden>
+          <button type="button" class="text-button edit-back" id="back-to-list">← К списку проектов</button>
+          <h3 id="project-form-title">Новый проект</h3>
+          <div class="editor-fields">
+            <label>Название<input name="title" required maxlength="80" placeholder="Например, личный сайт"></label>
+            <label>Категория<input name="category" required maxlength="32" placeholder="Например, Веб" list="category-options"></label>
+            <datalist id="category-options"></datalist>
+            <label class="full-field">Короткое описание<textarea name="summary" rows="2" required maxlength="220"></textarea></label>
+            <label class="full-field">Подробности<textarea name="description" rows="4" maxlength="4000" placeholder="Абзацы можно разделять пустыми строками."></textarea></label>
+            <label>Технологии через запятую<input name="tags" maxlength="250" placeholder="HTML, CSS, JavaScript"></label>
+            <label>Год<input name="year" inputmode="numeric" pattern="[0-9]{4}" placeholder="2026" maxlength="4"></label>
+            <label>Ссылка на код<input name="repo" type="url" maxlength="500" placeholder="https://github.com/…"></label>
+            <label>Ссылка на демо<input name="demo" inputmode="url" maxlength="500" placeholder="https://…"></label>
+            <label>Стиль обложки<select name="art">
+              <option value="type">Типографика</option><option value="browser">Окно браузера</option><option value="sieve">Сетка чисел</option><option value="terminal">Терминал</option>
+              <option value="recovery">Восстановление платежа</option><option value="dependencies">Карта зависимостей</option><option value="chat">Чат</option>
+              <option value="statement">Банковская выписка</option><option value="market">Рыночная лента</option><option value="desktop-agent">Рабочий стол</option>
+            </select></label>
+            <label>Загрузить обложку<input id="cover-file" type="file" accept="image/jpeg,image/png,image/webp,image/avif"></label>
+            <label class="full-field">Или вставить ссылку на обложку<input name="image" maxlength="500" placeholder="https://… или ./assets/cover.webp"></label>
+            <div class="cover-preview full-field" id="cover-preview" hidden><img alt="Предпросмотр загруженной обложки"><button type="button" class="text-button" id="clear-cover">Убрать обложку</button></div>
+            <label class="full-field check-field"><input type="checkbox" name="hidden"> Скрыть проект при публикации</label>
+          </div>
+          <div class="editor-row form-actions"><button type="submit" class="button primary">Сохранить проект</button><button type="button" class="text-button danger" id="delete-project" hidden>Удалить проект</button></div>
+        </form>
+      </section>
+      <section id="edit-profile" aria-label="Профиль" hidden>
+        <form id="profile-form" class="editor-form">
+          <div class="editor-fields">
+            <label>Роль<input name="role" required maxlength="60"></label>
+            <label>Технологии через запятую<input name="stack" maxlength="250"></label>
+            <label class="full-field">Вступление<textarea name="intro" required rows="3" maxlength="220"></textarea></label>
+            <label class="full-field">Обо мне<textarea name="bio" rows="5" maxlength="2000"></textarea></label>
+            <label>GitHub<input name="github" type="url" maxlength="500" placeholder="https://github.com/…"></label>
+            <label>Telegram<input name="telegram" type="url" maxlength="500" placeholder="https://t.me/…"></label>
+            <label>Kwork<input name="kwork" type="url" maxlength="500" placeholder="https://kwork.ru/user/…"></label>
+            <label>Почта<input name="email" type="email" maxlength="240"></label>
+          </div>
+          <button type="submit" class="button primary">Сохранить профиль</button>
+        </form>
+      </section>
+      <section id="edit-publish" aria-label="Публикация" hidden>
+        <div class="publish-panel">
+          <h3>Обновить сайт для всех</h3>
+          <ol><li>Скачай <code>portfolio.json</code> с видимыми работами.</li><li>Замени им файл <code>portfolio.json</code> в корне репозитория и сделай коммит в ветку GitHub Pages.</li></ol>
+          <div class="editor-row"><button type="button" id="export-public" class="button primary">Скачать portfolio.json <svg class="icon"><use href="#i-down"/></svg></button><a id="repo-upload" class="button outline" target="_blank" rel="noopener noreferrer" hidden>Репозиторий сайта <svg class="icon"><use href="#i-out"/></svg></a></div>
+        </div>
+        <div class="publish-panel backup-panel">
+          <h3>Черновик и резервная копия</h3>
+          <p class="muted">Черновик хранится в этом браузере. Резервная копия включает скрытые проекты.</p>
+          <div class="editor-row"><button type="button" id="preview-draft" class="button outline">Смотреть черновик</button><button type="button" id="export-backup" class="button outline">Скачать копию</button><button type="button" id="import-button" class="button outline">Импорт JSON</button><input id="import-file" type="file" accept=".json,application/json" hidden></div>
+          <button type="button" id="discard-draft" class="text-button danger" hidden>Удалить локальный черновик</button>
+        </div>
+      </section>
+      <p id="editor-status" class="editor-status" role="status"></p>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>
